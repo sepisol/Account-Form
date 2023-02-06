@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account Form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <p>Account settings</p>
+        <p>×</p>
+      </div>
+      <div class="center">
+        <img src="./images/avatar.jpg" alt="" />
+        <div class="box-one">
+          <label for="info">USERNAME</label>
+          <input type="text" placeholder="Enter your username" name="info" />
+        </div>
+        <div class="box-tow">
+          <div class="box-one">
+            <label for="info">FIRST NAME</label>
+            <input
+              type="text"
+              placeholder="Enter your first name"
+              name="info"
+            />
+          </div>
+          <div class="box-one last">
+            <label for="info">LAST NAME</label>
+            <input type="text" placeholder="Enter your last name" name="info" />
+          </div>
+        </div>
+        <div class="box-one email">
+          <label for="info">EMAIL </label>
+          <input type="text" placeholder="Enter your email" name="info" />
+        </div>
+        <div class="box-one email lab">
+          <label for="info">BIO </label>
+          <textarea
+            name="textarea"
+            rows="5"
+            cols="30"
+            placeholder="Tell us about yourself"
+          ></textarea>
+        </div>
+      </div>
+      <div class="footer">
+        <button>Cancel</button>
+        <button>Save</button>
+      </div>
+    </div>
+  </body>
+</html>
